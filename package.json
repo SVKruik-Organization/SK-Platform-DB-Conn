@@ -1,0 +1,42 @@
+{
+  "name": "@svkruik/sk-platform-db-conn",
+  "description": "Consistent and easy database communication.",
+  "keywords": [
+    "mariadb",
+    "utilities",
+    "database",
+    "sk-platform"
+  ],
+  "version": "0.0.5",
+  "author": "Stefan Kruik",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SVKruik-Organization/SK-Platform-DB-Conn.git"
+  },
+  "bugs": {
+    "url": "https://github.com/SVKruik-Organization/SK-Platform-DB-Conn/issues"
+  },
+  "homepage": "https://github.com/SVKruik-Organization/SK-Platform-DB-Conn#readme",
+  "license": "MIT",
+  "scripts": {
+    "build": "npx tsc"
+  },
+  "types": "types.d.ts",
+  "main": "dist/index.js",
+  "publishConfig": {
+    "access": "public"
+  },
+  "files": [
+    "dist",
+    "types.d.ts"
+  ],
+  "dependencies": {
+    "@svkruik/sk-platform-formatters": "^0.0.4",
+    "mariadb": "^3.4.5"
+  },
+  "devDependencies": {
+    "@types/node": "^20.12.7",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5"
+  }
+}
